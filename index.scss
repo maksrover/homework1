@@ -63,8 +63,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:32px;
+    gap: 32px;
     background-size: cover;
+
+    &__text {
+        
+    }
 
     &__group1 {
         background-image: url(images/group\ 2.png);
@@ -74,38 +78,32 @@
         width: 379px;
         font-size: 24px;
         font-weight: 600;
-        line-height: 524px;
-        font-family: 'Montserrat';
-        color:white;
+        font-family: "Montserrat";
         display: flex;
-        padding-left: 32px;
-
+        position: relative;
     }
     &__group2 {
         background-image: url(images/group\ 3.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 300px;
-        width: 378px;
+        width: 379px;
         font-size: 24px;
         font-weight: 600;
-        line-height: 524px;
-        font-family: 'Montserrat';
-        color:white;
+        font-family: "Montserrat";
         display: flex;
-        padding-left: 32px;
+        position: relative;
     }
     &__group3 {
         background-image: url(images/group\ 1.png);
         background-repeat: no-repeat;
+        background-size: cover;
         height: 300px;
         width: 379px;
         font-size: 24px;
         font-weight: 600;
-        line-height: 524px;
-        font-family: 'Montserrat';
-        color:white;
+        font-family: "Montserrat";
         display: flex;
-        padding-left: 32px;
+        position: relative;
     }
 }
