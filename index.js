@@ -46,7 +46,9 @@ user['city of residence'] = 'Istanbul';
 
 user[age] = 43;
 
-delete person.age;
+delete user['city of residence'];
+
+
     
 
 
