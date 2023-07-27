@@ -51,7 +51,8 @@ delete user['city of residence'];
 let info = prompt ("Какую информацию хотите узнать о пользователе?");
 alert (user[info]);
 
-
+let guestname = prompt ("Ваше имя, Любезнейший");
+alert (`Привет  ${guestname}`);
 
 
     
