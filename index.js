@@ -29,18 +29,24 @@ num = num + 5;
 num = num - 3;
 num = num * 7;
 num = num / 3;
-num = num ++;
-num = num --;
+num = num++;
+num = num--;
 alert(num);
 
-let age = prompt ("Сколько вам лет?");
-alert (age);
+let age = prompt("Сколько вам лет?");
+alert(age);
 
 let user = {
-    name: "Atamurat",
+    name: 'Atamurat',
     age: 34,
     isAdmin: true,
 }
+
+user['city of residence'] = 'Istanbul';
+    
+
+
+
 
 
 
