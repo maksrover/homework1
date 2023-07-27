@@ -48,6 +48,11 @@ user[age] = 43;
 
 delete user['city of residence'];
 
+let info = prompt ("Какую информацию хотите узнать о пользователе?");
+alert (user[info]);
+
+
+
 
     
 
