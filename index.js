@@ -24,3 +24,13 @@ let a = 9;
 let b = 2;
 alert(a / b);
 
+let num = 1;
+num = num + 5;
+num = num - 3;
+num = num * 7;
+num = num / 3;
+num = num ++;
+num = num --;
+alert(num);
+
+
