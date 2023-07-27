@@ -66,6 +66,15 @@
   gap: 32px;
   background-size: cover;
 }
+.indexbot__text {
+  position: absolute;
+  font-family: "Montserrat";
+  left: 32px;
+  bottom: 32px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
 .indexbot__group1 {
   background-image: url(images/group\ 2.png);
   background-repeat: no-repeat;
