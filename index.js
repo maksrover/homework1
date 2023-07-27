@@ -43,6 +43,8 @@ let user = {
 }
 
 user['city of residence'] = 'Istanbul';
+
+user.age = 43;
     
 
 
