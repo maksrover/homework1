@@ -22,7 +22,7 @@ alert(result); //zadanie5
 
 let a = 9;
 let b = 2;
-alert(a / b); // zadanie6
+alert(a / b-4); // zadanie6
 
 let num = 1;
 num += 5;
@@ -34,25 +34,25 @@ num--;
 alert(num); // zadanie7
 
 let age = prompt("Сколько вам лет?");
-alert(age);
+alert(age); // zadanie8
 
 let user = {
     name: 'Atamurat',
     age: 34,
     isAdmin: true,
-}
+} // zadanie9
 
-user['city of residence'] = 'Istanbul';
+user['city of residence'] = 'Istanbul'; //zadanie9.1
 
-user[age] = 43;
+user.age = 43; // zadanie9.2
 
-delete user['city of residence'];
+delete user['city of residence'];//zadanie9.3
 
 let info = prompt ("Какую информацию хотите узнать о пользователе?");
-alert (user[info]);
+alert (user[info]); // zadanie9.4
 
 let guestname = prompt ("Ваше имя, Любезнейший");
-alert (`Привет  ${guestname}`);
+alert (`Привет  ${guestname}`); //zadanie10
 
 
     
