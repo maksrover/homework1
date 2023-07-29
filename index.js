@@ -22,7 +22,7 @@ alert(result); //zadanie5
 
 let a = 9;
 let b = 2;
-alert(a / b-4); // zadanie6
+alert(a % b); // zadanie6 ostatok
 
 let num = 1;
 num += 5;
