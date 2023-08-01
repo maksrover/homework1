@@ -53,4 +53,36 @@ let b = '3';
 
 alert(+a + +b); // Исправьте код с помощью преобразования типов, чтобы на экран выводилось число 5
 
+let monthNumber = 12;
+
+if (monthNumber > 13) {
+    console.log("Ошибка: Неверный номер месяца. Номер должен быть от 1 до 12.");
+} else {
+    switch (monthNumber) {
+        case 12:
+        case 1:
+        case 2:
+            console.log("Зима");
+            break;
+        case 3:
+        case 4:
+        case 5:
+            console.log("Весна");
+            break;
+        case 6:
+        case 7:
+        case 8:
+            console.log("Лето");
+            break;
+        case 9:
+        case 10:
+        case 11:
+            console.log("Осень");
+            break;
+        default:
+            console.log("Неверный номер месяца. Номер должен быть от 1 до 12.");
+            break;
+    }
+} //  программa, которая определяет по номеру месяца в году, к какому сезону этот месяц принадлежит.
+
 
