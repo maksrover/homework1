@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  
+  .indextop {
+    background-image: url(images/index\ backround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .indextop__header {
+    width: 788px;
+    height: 125px;
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding-top: 217.1px;
+  }
+  .indextop__header_text {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    width: 481px;
+    height: 64px;
+    padding-top: 32px;
+  }
+  .indextop__header_button {
+    border-radius: 30px;
+    border: 1px solid #040404;
+    display: flex;
+    width: 234.06px;
+    height: 48.6px;
+    padding: 10px 63px 11px 90px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 44px;
+    background-color: #9c0332;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .indexbot {
+    background-image: url(images/index\ bot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 556px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-size: cover;
+  }
+  .indexbot__text {
+    position: absolute;
+    font-family: "Montserrat";
+    left: 32px;
+    bottom: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  .indexbot__group1 {
+    background-image: url(images/group\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 379px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    display: flex;
+    position: relative;
+  }
+  .indexbot__group2 {
+    background-image: url(images/group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 379px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    display: flex;
+    position: relative;
+  }
+  .indexbot__group3 {
+    background-image: url(images/group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 379px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    display: flex;
+    position: relative;
+  }/*# sourceMappingURL=index.css.map */
