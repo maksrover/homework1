@@ -117,4 +117,43 @@
   font-family: "Montserrat";
   display: flex;
   position: relative;
-} /*# sourceMappingURL=hw3.css.map */
+} 
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .indextop {
+    gap: 32px;
+  }
+  .indextop__header {
+    font-size: 32px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 238px;
+    text-align: center;
+  }
+  .indextop__header_text {
+    font-size: 14px;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+  }
+  .indexbot {
+    display: grid;
+    height: 1221px;
+    align-content: center;
+  }
+  .indexbot__group1 {
+    width: 343px;
+  }
+  .indexbot__group2 {
+    width: 343px;
+  }
+  .indexbot__group3 {
+    width: 343px;
+  }
+  .indextop__header_button {
+    margin-left: 54px;
+  }
+}/*# sourceMappingURL=hw3.css.map */
