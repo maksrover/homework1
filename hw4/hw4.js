@@ -35,13 +35,15 @@ while (n >= 50) {
 console.log("Результат деления: " + n);
 console.log("Количество итераций: " + num); // Дано число n=1000. Делите его на 2 столько раз, пока результат деления не станет меньше 50. Какое число получится? Посчитайте количество итераций, необходимых для этого (итерация — это проход цикла), и запишите его в переменную num.
 
-const firstFriday = 5; 
-let dayOfWeek = firstFriday - 1;
+const firstFriday = 5;
+let dayofWeek = firstFriday + 2;
 
 for (let day = 1; day <= 31; day++) {
-  if (dayOfWeek === 5) { 
-    console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
-  }
+    if (dayofWeek === 5) {
+        console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+    }
 
-  dayOfWeek = (dayOfWeek + 1) % 7;
+    const newLocal = dayofWeek = (dayofWeek + 1) % 7;
 } // "Сегодня пятница, ...-е число. Необходимо подготовить отчет."
+
+
