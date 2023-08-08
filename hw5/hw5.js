@@ -62,7 +62,25 @@ function checkNumb() {
 }
 checkNumb(); // Задание 6
 
+const circle1 = {
+  radius: 5,
+  area: function() {
+    return Math.PI * this.radius ** 2; // подсмотрел Math.PI в ИИ, все остальное с урока
+  },
+  perimeter: function() {
+    return 2 * Math.PI * this.radius;
+  }
+};
 
+const circle2 = {
+  radius: 8,
+  area: function() {
+    return Math.PI * this.radius ** 2;
+  },
+  perimeter: function() {
+    return 2 * Math.PI * this.radius;
+  }
+}; // задание 7
 
 
   
