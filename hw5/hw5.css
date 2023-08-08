@@ -180,6 +180,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 282px;
+  gap: 32px;
 }
 .container__box_header {
   width: 788px;
@@ -196,7 +197,6 @@
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   width: 584px;
-  padding-top: 32px;
 }
 .container__box_button {
   border-radius: 30px;
@@ -205,7 +205,6 @@
   height: 48.6px;
   padding: 10px 63px 11px 90px;
   font-family: "Montserrat", sans-serif;
-  margin-top: 44px;
   background-color: #9c0332;
   color: white;
   display: flex;
@@ -266,5 +265,37 @@
   }
   .indextop__header_button {
     margin-left: 54px;
+  }
+  .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container__gamepng {
+    width: 344px;
+    height: 236px;
+    padding-top: 64px;
+  }
+  .container__box {
+    padding-top: 178.87px;
+    text-align: center;
+    align-items: center;
+  }
+  .container__box_header {
+    font-size: 32px;
+    padding-top: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .container__box_text {
+    font-size: 14px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }/*# sourceMappingURL=hw5.css.map */
