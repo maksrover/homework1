@@ -60,7 +60,11 @@ function checkNumb() {
     return console.log(`${number1} в кубе равняется ${numCub}`);
   }
 }
-checkNumb();
+checkNumb(); // Задание 6
+
+
+
+
   
 
 
