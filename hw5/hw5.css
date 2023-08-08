@@ -169,27 +169,33 @@
   background-size: cover;
   width: 1440px;
   height: 800px;
+  display: flex;
+}
+.container__gamepng {
+  width: 485px;
+  height: 333px;
+  padding-top: 233.5px;
 }
 .container__box {
   display: flex;
   flex-direction: column;
+  padding-top: 282px;
 }
 .container__box_header {
   width: 788px;
   font-family: "Montserrat";
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 78px;
   letter-spacing: 0px;
   color: #ffffff;
-  padding-top: 282px;
 }
 .container__box_text {
   font-size: 18px;
   letter-spacing: 0px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  width: 481px;
+  width: 584px;
   padding-top: 32px;
 }
 .container__box_button {
@@ -216,6 +222,10 @@
 }
 
 .container__box_text:hover {
+  transform: scale(1.2);
+}
+
+.container__gamepng:hover {
   transform: scale(1.2);
 }
 
