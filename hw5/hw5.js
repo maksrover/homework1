@@ -51,6 +51,21 @@ function retConsSquare(d) {
   //console.log(multNums(10, 8)); 
   //console.log(multNums('test', 7)); // Задание 5
 
+function checkNumb() {
+  let number1 = prompt('enter number1');
+  if (isNaN(number1)) {
+    return console.log('Переданный параметр не является числом');
+  } else {
+    let numCub = number1 ** 3;
+    return console.log(`${number1} в кубе равняется ${numCub}`);
+  }
+}
+checkNumb();
+  
+
+
+
+
 
 
 
