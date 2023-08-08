@@ -26,7 +26,19 @@ function retConsSquare(d) {
 }
   // 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
-
+  function ageCheck() {
+    const age = prompt('введите ваш возраст?');
+  
+    if (age < 0) {
+      console.log('Вы ввели неправильное значение');
+    } else if (age >= 0 && age <= 12) {
+      console.log('Привет, друг!');
+    } else {
+      console.log('Добро пожаловать!');
+    }
+  }
+  
+  ageCheck();
 
 
 
