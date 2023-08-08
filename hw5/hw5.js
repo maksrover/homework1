@@ -27,18 +27,36 @@ function retConsSquare(d) {
   // 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
   function ageCheck() {
-    const age = prompt('введите ваш возраст?');
+    let age = prompt('введите ваш возраст?');
   
     if (age < 0) {
       console.log('Вы ввели неправильное значение');
-    } else if (age >= 0 && age <= 12) {
+    } else if (age >= 0 && age <= 12) { 
       console.log('Привет, друг!');
     } else {
       console.log('Добро пожаловать!');
     }
   }
   
-  ageCheck();
+  ageCheck(); // Задание 4
+
+  function multNums(num1, num2) {
+    if (isNaN(num1) || isNaN(num2)) {
+      return 'Одно или оба значения не являются числом';
+    } else {
+      return num1 * num2;
+    }
+  } 
+ 
+  //console.log(multNums(10, 8)); 
+  //console.log(multNums('test', 7)); // Задание 5
+
+
+
+
+
+
+
 
 
 
