@@ -24,32 +24,32 @@ function consSquare(d) {
 function retConsSquare(d) {
   return d * d;
 }
-  // 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
+// 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
-  function ageCheck() {
-    let age = prompt('введите ваш возраст?');
-  
-    if (age < 0) {
-      console.log('Вы ввели неправильное значение');
-    } else if (age >= 0 && age <= 12) { 
-      console.log('Привет, друг!');
-    } else {
-      console.log('Добро пожаловать!');
-    }
+function ageCheck() {
+  let age = prompt('введите ваш возраст?');
+
+  if (age < 0) {
+    console.log('Вы ввели неправильное значение');
+  } else if (age >= 0 && age <= 12) {
+    console.log('Привет, друг!');
+  } else {
+    console.log('Добро пожаловать!');
   }
-  
-  ageCheck(); // Задание 4
+}
 
-  function multNums(num1, num2) {
-    if (isNaN(num1) || isNaN(num2)) {
-      return 'Одно или оба значения не являются числом';
-    } else {
-      return num1 * num2;
-    }
-  } 
- 
-  //console.log(multNums(10, 8)); 
-  //console.log(multNums('test', 7)); // Задание 5
+ageCheck(); // Задание 4
+
+function multNums(num1, num2) {
+  if (isNaN(num1) || isNaN(num2)) {
+    return 'Одно или оба значения не являются числом';
+  } else {
+    return num1 * num2;
+  }
+}
+
+//console.log(multNums(10, 8)); 
+//console.log(multNums('test', 7)); // Задание 5
 
 function checkNumb() {
   let number1 = prompt('enter number1');
@@ -64,26 +64,41 @@ checkNumb(); // Задание 6
 
 const circle1 = {
   radius: 5,
-  area: function() {
+  area: function () {
     return Math.PI * this.radius ** 2; // подсмотрел Math.PI в ИИ, все остальное с урока
   },
-  perimeter: function() {
+  perimeter: function () {
     return 2 * Math.PI * this.radius;
   }
 };
 
 const circle2 = {
   radius: 8,
-  area: function() {
+  area: function () {
     return Math.PI * this.radius ** 2;
   },
-  perimeter: function() {
+  perimeter: function () {
     return 2 * Math.PI * this.radius;
   }
 }; // задание 7
 
+function MonthName() {
+  let monthNumber = prompt('enter a month number');
+  if (monthNumber < 1 || monthNumber > 12) {
+    return alert('Неправильный номер месяца');
+  } else if (monthNumber >= 3 && monthNumber <= 5) {
+    return alert('Весна');
+  } else if (monthNumber >= 6 && monthNumber <= 8) {
+    return alert('Лето');
+  } else if (monthNumber >= 9 && monthNumber <= 11) {
+    return alert('Осень');
+  } else {
+    return alert('Зима');
+  }
+}
 
-  
+
+
 
 
 
