@@ -44,7 +44,7 @@ const guess = parseInt(prompt('Угадай число из массива: 9, 8
 if (zadanie7.includes(guess)) {
   alert('Угадал');
 } else {
-  alert('Не угадал'); 
+  alert('Не угадал');
 } // вывести в alert «Угадал», в противном случае вывести «Не угадал».Zadanie7
 
 const zadanie8 = 'abcdef';
@@ -52,6 +52,26 @@ const zadanie8 = 'abcdef';
 const reverse = zadanie8.split('').reverse().join('');
 
 console.log(reverse); // Reverse. Zadanie8
+
+const zadanie9 = [[1, 2, 3], [4, 5, 6]];
+const merge = [].concat(...zadanie9);
+
+console.log(merge); // Выведите в консоль массив вида: [1, 2, 3, 4, 5, 6]
+
+const zadanie10 = [3, 7, 2, 9, 5, 8, 1, 4, 6, 10];
+
+for (let i = 0; i < zadanie10.length - 1; i++) {
+  const currentElement = zadanie10[i];
+  const nextElement = zadanie10[i + 1];
+  const sum = currentElement + nextElement;
+  
+  console.log(`Сумма ${currentElement} и ${nextElement} равна ${sum}`);
+} //Задание 10
+
+
+
+
+
 
 
 
