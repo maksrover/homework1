@@ -18,13 +18,26 @@ const result = zadanie3.join(' ');
 
 console.log(result); // С помощью метода join выведите элементы массива через пробел (пустую строку ' ').
 
-let a = [1,1,1];
+let a = [1, 1, 1];
 let b = a;
 let c = b;
-const zadanie4 =[a,b,c];
+const zadanie4 = [a, b, c];
 
-console.log (zadanie4); //С помощью вложенных циклов создайте многомерный массив вида:[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+console.log(zadanie4); //С помощью вложенных циклов создайте многомерный массив вида:[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
 
+const zadanie5 = [1, 1, 1];
+zadanie5.push(2, 2, 2);
 
+console.log(zadanie5); // Добавьте в конец массива значения 2, 2, 2.
+
+const zadanie6 = [9, 8, 7, 'a', 6, 5];
+
+// Сортируем массив
+zadanie6.sort();
+
+// Удаляем букву 'a' из массива
+const filteredZadanie6 = zadanie6.filter(item => typeof item === 'number');
+
+console.log(filteredZadanie6); //Oтсортируйте массив и удалите букву 'a' из данного массива.
 
 
