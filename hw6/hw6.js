@@ -64,7 +64,7 @@ for (let i = 0; i < zadanie10.length - 1; i++) {
   const currentElement = zadanie10[i];
   const nextElement = zadanie10[i + 1];
   const sum = currentElement + nextElement;
-  
+
   console.log(`Сумма ${currentElement} и ${nextElement} равна ${sum}`);
 } //Задание 10
 
@@ -79,6 +79,24 @@ const inputArray = input.split(' ').map(Number);
 const squaredResult = zadanie11(inputArray);
 
 console.log(squaredResult); // Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив квадратов этих чисел.
+
+function zadanie12(arr) {
+  const lengthsArray = arr.map(word => word.length);
+  return lengthsArray;
+}
+
+const inputZad12 = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+const lengthsResult = zadanie12(inputZad12);
+
+console.log(lengthsResult); // Создайте функцию, которая принимает на вход массив строк, а возвращает массив длины слов.
+
+function zadanie13(array) {
+  const minusNum = array.filter(number => number < 0);
+  return minusNum;
+}
+
+console.log(zadanie13([-1, 0, 5, -10, 56])); 
+console.log(zadanie13([-25, 25, 0, -1000, -2])); //Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив содержащий только отрицательные значения.
 
 
 
