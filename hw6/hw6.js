@@ -68,6 +68,17 @@ for (let i = 0; i < zadanie10.length - 1; i++) {
   console.log(`Сумма ${currentElement} и ${nextElement} равна ${sum}`);
 } //Задание 10
 
+function zadanie11(num) {
+  const squaredArray = num.map(number => number ** 2);
+  return squaredArray;
+}
+
+const input = prompt('Введите массив целых чисел через пробел:');
+const inputArray = input.split(' ').map(Number);
+
+const squaredResult = zadanie11(inputArray);
+
+console.log(squaredResult); // Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив квадратов этих чисел.
 
 
 
