@@ -3,7 +3,7 @@ const array = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < array.length; i++) {
   if (array[i] === 10) {
     console.log(array[i]);
-    break; 
+    break;
   }
   console.log(array[i]); // Необходимо создать цикл, который будет выводить элементы массива до тех пор, пока не встретит значение 10.
 }
@@ -17,3 +17,14 @@ const zadanie3 = [1, 3, 5, 10, 20];
 const result = zadanie3.join(' ');
 
 console.log(result); // С помощью метода join выведите элементы массива через пробел (пустую строку ' ').
+
+let a = [1,1,1];
+let b = a;
+let c = b;
+const zadanie4 =[a,b,c];
+
+console.log (zadanie4); //С помощью вложенных циклов создайте многомерный массив вида:[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+
+
+
+
