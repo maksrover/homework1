@@ -47,6 +47,13 @@ if (zadanie7.includes(guess)) {
   alert('Не угадал'); 
 } // вывести в alert «Угадал», в противном случае вывести «Не угадал».Zadanie7
 
+const zadanie8 = 'abcdef';
+
+const reverse = zadanie8.split('').reverse().join('');
+
+console.log(reverse); // Reverse. Zadanie8
+
+
 
 
 
