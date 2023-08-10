@@ -30,14 +30,25 @@ zadanie5.push(2, 2, 2);
 
 console.log(zadanie5); // Добавьте в конец массива значения 2, 2, 2.
 
-const zadanie6 = [9, 8, 7, 'a', 6, 5];
 
-// Сортируем массив
+const zadanie6 = [9, 8, 7, 'a', 6, 5];
 zadanie6.sort();
 
-// Удаляем букву 'a' из массива
 const filteredZadanie6 = zadanie6.filter(item => typeof item === 'number');
 
 console.log(filteredZadanie6); //Oтсортируйте массив и удалите букву 'a' из данного массива.
+
+const zadanie7 = [9, 8, 7, 6, 5];
+const guess = parseInt(prompt('Угадай число из массива: 9, 8, 7, 6, 5'));
+
+if (zadanie7.includes(guess)) {
+  alert('Угадал');
+} else {
+  alert('Не угадал'); 
+} // вывести в alert «Угадал», в противном случае вывести «Не угадал».Zadanie7
+
+
+
+
 
 
