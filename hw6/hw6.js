@@ -18,11 +18,17 @@ const result = zadanie3.join(' ');
 
 console.log(result); // С помощью метода join выведите элементы массива через пробел (пустую строку ' ').
 
-let a = [1, 1, 1];
-let b = a;
-let c = b;
-const zadanie4 = [a, b, c];
+const numRows = 3;
+const numCols = 3;
+const zadanie4 = [];
 
+for (let i = 0; i < numRows; i++) {
+  const row = [];
+  for (let j = 0; j < numCols; j++) {
+    row.push(1);
+  }
+  zadanie4.push(row);
+}
 console.log(zadanie4); //С помощью вложенных циклов создайте многомерный массив вида:[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
 
 const zadanie5 = [1, 1, 1];
@@ -95,7 +101,7 @@ function zadanie13(array) {
   return minusNum;
 }
 
-console.log(zadanie13([-1, 0, 5, -10, 56])); 
+console.log(zadanie13([-1, 0, 5, -10, 56]));
 console.log(zadanie13([-25, 25, 0, -1000, -2])); //Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив содержащий только отрицательные значения.
 
 
