@@ -57,3 +57,18 @@ function getRandomNumber() {
 
 getRandomNumber(); // Создайте функцию, которая будет выводить в консоль рандомное число от 1 до 10.
 
+function getRandomArrNumbers(num) {
+  const length = Math.floor(num / 2); 
+  const result = [];
+
+  for (let i = 0; i < length; i++) {
+    const zadanie6 = Math.floor(Math.random() * (num + 1));
+    result.push(zadanie6);
+  }
+
+  return result;
+}
+
+console.log(getRandomArrNumbers(7)); 
+console.log(getRandomArrNumbers(12)); // zadanie6 Напишите функцию, которая будет принимать на вход целое число, а возвращать массив случайных целых чисел от 0 до переданного числа. Длина массива должна быть в 2 раза меньше переданного числа.
+
