@@ -78,3 +78,7 @@ function getRandomNumberInRange(min, max) {
 const zadanie7 = getRandomNumberInRange(10, 20);
 console.log(zadanie7); // Напишите функцию, которая на вход принимает 2 целых числа, а в качестве результата возвращает случайное целое число в этом диапазоне.
 
+const zadanie8 = new Date();
+const dateString = zadanie8.toDateString();
+console.log(dateString); // zadanie8 Выведите в консоль текущую дату в стандартном режиме.
+
