@@ -29,5 +29,14 @@ console.log(zadanie2(array2, searchString2));
 
 const array3 = ['Дом', 'Банк', 'Больница', 'Театр'];
 const searchString3 = 'Кино'; 
-console.log(zadanie2(array3, searchString3)); // [] // zadanie 2Создайте функцию, которая в качестве параметров принимает массив строк и строку.
+console.log(zadanie2(array3, searchString3)); // [] // zadanie2 Создайте функцию, которая в качестве параметров принимает массив строк и строку.
 
+let number = 32.58884;
+
+let roundedMin = Math.floor(number); 
+let roundedMax = Math.ceil(number);
+let roundedNearest = Math.round(number); 
+
+console.log( roundedMin); 
+console.log( roundedMax); 
+console.log( roundedNearest); // zadanie3 Округлите число 32.58884 
