@@ -90,4 +90,18 @@ newDate.setDate(zadanie9.getDate() + 73);
 console.log(zadanie9.toDateString());
 console.log(newDate.toDateString()); // zadanie9 Создайте переменную currentDate и сохраните в нее текущую дату. Выведите дату, которая наступит через 73 дня после текущей.
 
+function formatDateAndTime(date) {
+  const weekdays = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+  const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+  const formattedDate = `Дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${weekdays[date.getDay()]}.`;
+  const formattedTime = `Время: ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}:${String(date.getSeconds()).padStart(2, '0')}`;
+
+  return formattedDate + '\n' + formattedTime;
+}
+
+// Пример использования функции
+const zadanie10 = new Date();
+const formattedDateTime = formatDateAndTime(zadanie10);
+console.log(formattedDateTime); // zadanie10 Написать функцию, которая на вход принимает дату, а возвращает ее отображение на русском> 
 
