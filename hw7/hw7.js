@@ -82,3 +82,12 @@ const zadanie8 = new Date();
 const dateString = zadanie8.toDateString();
 console.log(dateString); // zadanie8 Выведите в консоль текущую дату в стандартном режиме.
 
+const zadanie9 = new Date();
+
+const newDate = new Date(zadanie9);
+newDate.setDate(zadanie9.getDate() + 73);
+
+console.log(zadanie9.toDateString());
+console.log(newDate.toDateString()); // zadanie9 Создайте переменную currentDate и сохраните в нее текущую дату. Выведите дату, которая наступит через 73 дня после текущей.
+
+
