@@ -104,25 +104,41 @@ const zadanie10 = new Date();
 const formattedDateTime = formatDateAndTime(zadanie10);
 console.log(formattedDateTime); // zadanie10 Написать функцию, которая на вход принимает дату, а возвращает ее отображение на русском> 
 
-let zadanie11 = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+function memorryGame(){
+  let zadanie11 = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
-zadanie11 = zadanie11.sort(() => Math.random() - 0.5);
-
-alert(zadanie11.join('\n'));
-
-const firstGuess = prompt("Чему равнялся первый элемент массива?");
-const lastGuess = prompt("Чему равнялся последний элемент массива?");
-
-const smallFirstGuess = firstGuess.toLowerCase();
-const smallLastGuess = lastGuess.toLowerCase();
-const smallFirstElement = zadanie11[0].toLowerCase();
-const smallLastElement = zadanie11[zadanie11.length - 1].toLowerCase();
-
-if (smallFirstGuess === smallFirstElement && smallLastGuess === smallLastElement) {
-  alert("Поздравляем, вы угадали оба элемента!");
-} else if (smallFirstGuess === smallFirstElement || smallLastGuess === smallLastElement) {
-  alert("Вы были близки к победе!");
-} else {
-  alert("Вы ответили неверно.");
+  zadanie11 = zadanie11.sort(() => Math.random() - 0.5);
+  
+  alert(zadanie11.join('\n'));
+  
+  const firstGuess = prompt("Чему равнялся первый элемент массива?");
+  const lastGuess = prompt("Чему равнялся последний элемент массива?");
+  
+  const smallFirstGuess = firstGuess.toLowerCase();
+  const smallLastGuess = lastGuess.toLowerCase();
+  const smallFirstElement = zadanie11[0].toLowerCase();
+  const smallLastElement = zadanie11[zadanie11.length - 1].toLowerCase();
+  
+  if (smallFirstGuess === smallFirstElement && smallLastGuess === smallLastElement) {
+    alert("Поздравляем, вы угадали оба элемента!");
+  } else if (smallFirstGuess === smallFirstElement || smallLastGuess === smallLastElement) {
+    alert("Вы были близки к победе!");
+  } else {
+    alert("Вы ответили неверно.");
+  }
+}
+function MonthName() {
+  let monthNumber = prompt('enter a month number');
+  if (monthNumber < 1 || monthNumber > 12) {
+    return alert('Неправильный номер месяца');
+  } else if (monthNumber >= 3 && monthNumber <= 5) {
+    return alert('Весна');
+  } else if (monthNumber >= 6 && monthNumber <= 8) {
+    return alert('Лето');
+  } else if (monthNumber >= 9 && monthNumber <= 11) {
+    return alert('Осень');
+  } else {
+    return alert('Зима');
+  }
 }
  // zadanie11 
