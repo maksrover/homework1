@@ -120,7 +120,7 @@ const smallLastElement = zadanie11[zadanie11.length - 1].toLowerCase();
 
 if (smallFirstGuess === smallFirstElement && smallLastGuess === smallLastElement) {
   alert("Поздравляем, вы угадали оба элемента!");
-} else if (normalizedFirstGuess === smallFirstElement || smallLastGuess === smallLastElement) {
+} else if (smallFirstGuess === smallFirstElement || smallLastGuess === smallLastElement) {
   alert("Вы были близки к победе!");
 } else {
   alert("Вы ответили неверно.");
