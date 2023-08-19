@@ -17,6 +17,35 @@ zadanie1.sort((a, b) => {
 
 console.log(zadanie1); // zadanie1
 
+function isPositive(number) {
+  return number > 0;
+}
 
+function isMale(person) {
+  return person.gender === 'male';
+}
+
+function filter(arr, ruleFunction) {
+  const result = [];
+  
+  for (const item of arr) {
+    if (ruleFunction(item)) {
+      result.push(item);
+    }
+  }
+  
+  return result;
+}
+
+console.log(filter([3, -4, 1, 9], isPositive)); 
+
+const zadanie2 = [
+   { name: 'Глеб', gender: 'male' },
+   { name: 'Анна', gender: 'female' },
+   { name: 'Олег', gender: 'male' },
+   { name: 'Оксана', gender: 'female' }
+];
+
+console.log(filter(zadanie2, isMale)); 
 
 
