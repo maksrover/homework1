@@ -46,6 +46,21 @@ const zadanie2 = [
    { name: 'Оксана', gender: 'female' }
 ];
 
-console.log(filter(zadanie2, isMale)); 
+console.log(filter(zadanie2, isMale));  // zadanie2
+
+let zadanie3 = 0;
+
+function printCurrentDate() {
+  console.log(new Date());
+  zadanie3 += 3; 
+  if (zadanie3 >= 30) {
+    clearInterval(interval); 
+    console.log("30 секунд прошло");
+  }
+}
+
+const interval = setInterval(printCurrentDate, 3000); // zadanie3
+
+
 
 
