@@ -69,7 +69,20 @@ zadanie4(function () {
   console.log('Привет, Глеб!');
 });// zadanie4
 
+function zadanie5(cb) {
+  setTimeout(() => {
+    console.log('Прошла одна секунда');
+    if (cb) {
+      cb();
+    }
+  }, 1000)
+}
 
+function sayHi(name) {
+  console.log(`Привет, ${name}!`);
+}
+
+zadanie5(() => sayHi('Глеб')); // zadanie5
 
 
 
